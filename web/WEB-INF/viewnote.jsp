@@ -16,9 +16,8 @@
         <h1>Simple Note Keeper</h1>
         <h1>${editing}</h1>
         <h2>View Note</h2>
-        <input type="text" name="title" value="${title}">
-        <input type="text" name="content" value="${content}">
-        <h3>Title:</h3>
+    
+        <h3>Title: ${Note.title}</h3>
         
         <h3>Contents : ${Note.content}</h3>
         <br>
